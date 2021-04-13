@@ -1,0 +1,40 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+#nav-bar {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 48px;
+}
+.alinks {
+    text-decoration: none;
+    color: #222;
+}
+.alinks:hover {
+    text-decoration: underline;
+}
+.nav-right-main {
+    padding-top: 4px;
+    display: flex;
+}
+.nav-right-sub {
+    padding-right: 15px;
+}
+#body-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+    background-color: yellow;
+}
+.logo-pos {
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
