@@ -1,0 +1,1 @@
+Day 1: Goal is to recreate the google homepage. Have a very basic idea of html and css
